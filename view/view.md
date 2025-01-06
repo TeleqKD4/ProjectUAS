@@ -15,12 +15,12 @@ class ViewAkun:
             print("Tidak ada data akun yang tersedia.")
             return
 
-        print("+---------+----------+------------+")
-        print("| Akun    | Username | Password   |")
-        print("+---------+----------+------------+")
+        print("-"* 60)
+        print(f"|{'Akun':<10} | {'Username':<15} | {'Password':<15} |")
+        print("-"* 60)
         for akun, info in data.items():
-            print(f"| {akun:<7} | {info['nama']:<8} | {info['PW']:<10} |")
-        print("+---------+----------+------------+")
+            print(f"| {akun:<10} | {info['nama']:<15} | {info['PW']:<15} |")
+        print("-"* 60)
 
 ```
 class ini berfungsi untuk menampilkan semua program di terminal 
