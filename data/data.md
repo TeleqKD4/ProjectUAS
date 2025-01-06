@@ -1,6 +1,6 @@
 ```
 class DataAkun:
-    """Class untuk menyimpan data akun."""
+    
     def __init__(self):
         self.data = {}
 
